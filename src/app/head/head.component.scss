@@ -1,0 +1,20 @@
+:host {
+  display: block;
+  position: relative;
+  padding-left: 130px;
+}
+
+.location {
+  margin-top: 10px;
+
+  i {
+    font-size: 15px;
+  }
+}
+
+img {
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100px;
+}

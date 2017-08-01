@@ -1,0 +1,11 @@
+@import '../styles.scss';
+
+:host {
+  display: block;
+  border-bottom: $border;
+}
+
+.left {
+  border-right: $border;
+  padding-right: 80px;
+}

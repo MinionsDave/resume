@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+$border: 1px solid #eee;
+$primary: #C4455B;
+
+body {
+  font-size: 13px;
+  color: #656162;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.primary {
+  color: $primary;
+}
+
+.middle {
+  font-size: 15px;
+}
+
+.title {
+  color: $primary;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.content-wrapper {
+  padding-left: 30px;
+  border-left: 2px solid #eee;
+  margin-top: 20px;
+
+  p {
+    margin-left: 3px;
+    line-height: 23px;
+  }
+}
+
+ul.timer {
+  list-style: none;
+
+  li {
+    margin-top: 30px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    .title {
+      margin-top: 0;
+      font-size: 15px;
+      color: #585657;
+      margin-bottom: 5px;
+    }
+
+    p {
+      margin-top: 5px;
+      margin-left: 0;
+    }
+  }
+}
