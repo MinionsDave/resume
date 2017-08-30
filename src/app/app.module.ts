@@ -6,6 +6,7 @@ import { HeadComponent } from './head/head.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectExperienceComponent } from './project-experience/project-experience.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ProjectExperienceComponent } from './project-experience/project-experie
     HeadComponent,
     ProfileComponent,
     ExperienceComponent,
-    ProjectExperienceComponent
+    ProjectExperienceComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule
