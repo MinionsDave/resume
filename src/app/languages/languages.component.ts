@@ -17,7 +17,11 @@ export class LanguagesComponent implements OnInit {
       points: 100
     },
     {
-      name: 'NodeJs',
+      name: 'html',
+      points: 90
+    },
+    {
+      name: 'css(sass)',
       points: 80
     },
     {
@@ -27,6 +31,26 @@ export class LanguagesComponent implements OnInit {
     {
       name: 'angularjs',
       points: 85
+    },
+    {
+      name: 'NodeJs',
+      points: 80
+    },
+    {
+      name: 'express',
+      points: 85
+    },
+    {
+      name: 'Koa',
+      points: 80
+    },
+    {
+      name: 'Mongodb',
+      points: 70
+    },
+    {
+      name: 'Nginx',
+      points: 60
     }
   ]
 

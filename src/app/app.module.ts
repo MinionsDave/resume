@@ -9,6 +9,7 @@ import { ProjectExperienceComponent } from './project-experience/project-experie
 import { DetailComponent } from './detail/detail.component';
 import { LanguagesComponent } from './languages/languages.component';
 import { ProcessBarComponent } from './process-bar/process-bar.component';
+import { EduExperienceComponent } from './edu-experience/edu-experience.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProcessBarComponent } from './process-bar/process-bar.component';
     ProjectExperienceComponent,
     DetailComponent,
     LanguagesComponent,
-    ProcessBarComponent
+    ProcessBarComponent,
+    EduExperienceComponent
   ],
   imports: [
     BrowserModule
