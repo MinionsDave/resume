@@ -1,0 +1,19 @@
+@import '../../styles.scss';
+
+$height: 3px;
+
+:host {
+  display: block;
+  height: 0;
+  border-bottom: $height solid #C9C9C9;
+  position: relative;
+}
+
+.process-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 0;
+  border-bottom: $height solid $primary;
+}

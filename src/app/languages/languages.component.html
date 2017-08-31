@@ -1,0 +1,9 @@
+<div class="title">
+  主要技能
+</div>
+<ul class="list list-unstyled">
+  <li *ngFor="let skill of skills">
+    {{ skill.name }}
+    <app-process-bar [points]="skill.points"></app-process-bar>
+  </li>
+</ul>
