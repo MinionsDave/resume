@@ -17,15 +17,19 @@ export class LanguagesComponent implements OnInit {
       points: 100
     },
     {
-      name: 'html',
+      name: 'NodeJs',
+      points: 100
+    },
+    {
+      name: 'Mongodb',
       points: 90
     },
+    // {
+    //   name: '需求梳理',
+    //   points: 90
+    // },
     {
-      name: 'css(sass)',
-      points: 80
-    },
-    {
-      name: 'Angular2(4)',
+      name: 'Angular2+',
       points: 90
     },
     {
@@ -33,20 +37,12 @@ export class LanguagesComponent implements OnInit {
       points: 85
     },
     {
-      name: 'NodeJs',
-      points: 80
-    },
-    {
       name: 'express',
-      points: 85
+      points: 100
     },
     {
       name: 'Koa',
       points: 80
-    },
-    {
-      name: 'Mongodb',
-      points: 70
     },
     {
       name: 'Nginx',
