@@ -21,33 +21,25 @@ export class LanguagesComponent implements OnInit {
       points: 100
     },
     {
-      name: 'Mongodb',
-      points: 90
-    },
-    // {
-    //   name: '需求梳理',
-    //   points: 90
-    // },
-    {
-      name: 'Angular2+',
-      points: 90
-    },
-    {
-      name: 'angularjs',
+      name: 'Go',
       points: 85
     },
     {
-      name: 'express',
+      name: 'Nestjs',
       points: 100
     },
     {
-      name: 'Koa',
-      points: 80
+      name: 'Angular',
+      points: 100
     },
     {
-      name: 'Nginx',
-      points: 60
-    }
+      name: 'Mongodb',
+      points: 90
+    },
+    {
+      name: 'Mysql',
+      points: 85
+    },
   ]
 
   constructor() { }
